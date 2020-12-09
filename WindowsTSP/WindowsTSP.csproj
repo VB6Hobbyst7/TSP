@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Graphs\Graphs\Graphs.vbproj" />
+    <ProjectReference Include="..\PlaneGeometry\PlaneGeometry.vbproj" />
+    <ProjectReference Include="..\TSP\TSP.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="EdgeEliminationForm.cs" />
+  </ItemGroup>
+
+</Project>

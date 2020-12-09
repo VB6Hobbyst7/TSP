@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TSP": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\pauborge\\Desktop\\TSP\\Datasets\\PB42a.tsp"
+    }
+  }
+}
